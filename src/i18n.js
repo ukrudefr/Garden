@@ -19,7 +19,10 @@ i18n.use(Backend)
 	interpolation: {
 		escapaValue: false
 	},
-	
+	backend: {
+
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    },
 
 });
 
