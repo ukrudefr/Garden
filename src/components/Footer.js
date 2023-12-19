@@ -18,7 +18,6 @@ export default function Footer() {
 			<Row className="row text-center text-md-left">
 				<Col className="col-md-5 col-lg-5 col-xl-5 mx-auto mt-4">
 					<h5 className="text-uppercase mb-4 font-weight-bold text-white">{t("title")}</h5>
-					
 					<p> <FontAwesomeIcon icon={faCopyright}/>{t("footer")}</p>
 				</Col>
 				<Col className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4">
